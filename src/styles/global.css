@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-Losta_Masta: "Losta_Masta";
+  --font-Astaken: "Astaken";
+  --font-Briliond: "Briliond";
+  --font-GoldBadge: "GoldBadge";
+  --font-Zambeza: "Zambeza";
+
+  /* colors */
+  --color-main: #d1202d; /* شغف وطاقة */
+  --color-background: #f5f0e8; /* دفء ورقي */
+  --color-white: #ffffff; /* بساطة ونقاء */
+  --color-black: #222222; /* أناقة وثقل */
+}
+@font-face {
+  font-family: "Losta_Masta";
+  src: url("public/Fonts/Losta_Masta.ttf");
+}
+@font-face {
+  font-family: "Astaken";
+  src: url("../../public/Fonts/Astaken.ttf");
+}
+@font-face {
+  font-family: "Briliond";
+  src: url("../../public/Fonts/Briliond.ttf");
+}
+@font-face {
+  font-family: "GoldBadge";
+  src: url("public/Fonts/GoldBadge.otf");
+}
+@font-face {
+  font-family: "Zambeza";
+  src: url("public/Fonts/Zambeza.otf");
+}
